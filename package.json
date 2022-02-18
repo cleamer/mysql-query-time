@@ -1,6 +1,6 @@
 {
   "name": "mysql-query-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "masureing MySQL query execution time",
   "main": "index.js",
   "scripts": {
