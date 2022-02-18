@@ -2,7 +2,7 @@
 
 **Table of contents**
 
-- [Why MySQL Query Time](why-mysql-query-time)
+- [Why MySQL Query Time](#why-mysql-query-time)
 - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Documentation](#documentation)
