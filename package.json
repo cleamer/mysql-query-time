@@ -1,0 +1,30 @@
+{
+  "name": "mysql-query-time",
+  "version": "1.0.0",
+  "description": "masureing MySQL query execution time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleamer/mysql-query-time.git"
+  },
+  "keywords": [
+    "mysql",
+    "query",
+    "time",
+    "masure",
+    "test"
+  ],
+  "author": "cloer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cleamer/mysql-query-time/issues"
+  },
+  "homepage": "https://github.com/cleamer/mysql-query-time#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3"
+  }
+}
