@@ -30,6 +30,32 @@ npm install mysql-query-time
 
 First of all you need to set MySQL fallowing [MySQL Documnetation(22.11 Performance Schema General Table Characteristics)](https://dev.mysql.com/doc/refman/8.0/en/performance-schema-query-profiling.html)
 
+```SQL
+UPDATE performance_schema.setup_actors
+SET ENABLED = 'NO', HISTORY = 'NO'
+WHERE HOST = '%' AND USER = '%';
+
+INSERT INTO performance_schema.setup_actors
+(HOST,USER,ROLE,ENABLED,HISTORY)
+VALUES('localhost','test_user','%','YES','YES');
+
+UPDATE performance_schema.setup_instruments
+SET ENABLED = 'YES', TIMED = 'YES'
+WHERE NAME LIKE '%statement/%';
+
+UPDATE performance_schema.setup_instruments
+SET ENABLED = 'YES', TIMED = 'YES'
+WHERE NAME LIKE '%stage/%';
+
+UPDATE performance_schema.setup_consumers
+SET ENABLED = 'YES'
+WHERE NAME LIKE '%events_statements_%';
+
+UPDATE performance_schema.setup_consumers
+SET ENABLED = 'YES'
+WHERE NAME LIKE '%events_stages_%';
+```
+
 ### 2. Set .env file
 
 Make .env file and set some environment variable about your databse.
