@@ -12,7 +12,7 @@
 
 ## Why MySQL Query Time
 
-If you have ever developed backend, you may have tought about database performance. There are a lot of things about performance however execution time is one of most important things. This module will help you masure query execution time in your project.
+If you have ever developed backend, you may have tought about database performance. There are a lot of things about performance however execution time is one of the most important things. This module will help you measure query execution time in your project.
 
 <br/>
 
