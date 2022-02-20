@@ -58,7 +58,7 @@ WHERE NAME LIKE '%events_stages_%';
 
 ### 2. Set .env file
 
-Make .env file and set some environment variable about your databse.
+Make .env file and set some environment variables about your databse.
 
 for example
 
@@ -70,6 +70,10 @@ TEST_DATABASE='my_database'
 ```
 
 ### 3. Import mysql-query-time and call `createTest()`
+
+Import the package and call `createTest()`. It returns an functon called `Test Function`
+
+for example
 
 ```javascript
 const { createTest } = require('mysql-query-time');
