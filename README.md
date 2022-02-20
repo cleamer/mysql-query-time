@@ -30,7 +30,7 @@ npm install mysql-query-time
 
 First of all you need to set MySQL using `setMysql()`. This function must be executed only once each time the database is started.
 
-Also you can do it yourself fallowing [MySQL Documnetation(22.11 Performance Schema General Table Characteristics)](https://dev.mysql.com/doc/refman/8.0/en/performance-schema-query-profiling.html)
+Also you can do it yourself whitout `setMysql()` fallowing [MySQL Documnetation(22.11 Performance Schema General Table Characteristics)](https://dev.mysql.com/doc/refman/8.0/en/performance-schema-query-profiling.html)
 
 ```SQL
 UPDATE performance_schema.setup_actors
