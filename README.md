@@ -19,7 +19,7 @@ If you have ever developed backend, you may have tought about database performan
 ## Installation
 
 ```bash
-npm install mysql-query-time
+npm install -D mysql-query-time
 ```
 
 <br/>
