@@ -10,6 +10,5 @@ interface TimeResult {
 export interface TestFunction {
   (query: string, errorHandler?: ErrorHandler): Promise<{ queryResult: any[]; timeResult: TimeResult[] }>;
 }
-
 export function setMysql(): Promise<void>;
 export function createTest(): Promise<TestFunction>;

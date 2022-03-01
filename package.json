@@ -17,7 +17,9 @@
     "query",
     "time",
     "masure",
-    "test"
+    "test",
+    "profile",
+    "profiling"
   ],
   "author": "cloer",
   "license": "MIT",
