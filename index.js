@@ -69,5 +69,7 @@ exports.createTest = async () => {
     };
   } catch (connectionError) {
     console.error(connectionError);
+    queryConnection.end();
+    timeConnection.end();
   }
 };

@@ -1,7 +1,7 @@
 {
   "name": "mysql-query-time",
-  "version": "1.1.4",
-  "description": "measureing MySQL query execution time",
+  "version": "1.1.5",
+  "description": "measuring MySQL query execution time",
   "main": "index.js",
   "typings": "./types/index.d.ts",
   "scripts": {
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloer-Choi/mysql-query-time.git"
+    "url": "git+https://github.com/thecloer/mysql-query-time.git"
   },
   "keywords": [
     "mysql",
     "query",
     "time",
-    "masure",
+    "measure",
     "test",
     "profile",
     "profiling"
@@ -24,9 +24,9 @@
   "author": "cloer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloer-Choi/mysql-query-time/issues"
+    "url": "https://github.com/thecloer/mysql-query-time/issues"
   },
-  "homepage": "https://github.com/cloer-Choi/mysql-query-time#readme",
+  "homepage": "https://github.com/thecloer/mysql-query-time#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "mysql2": "^2.3.3"
